@@ -1,8 +1,8 @@
 {
   "name": "google-drive-sync-directory",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Node.js package that allows you to easily synchronize a directory with Google Drive. This package handles authentication with Google Drive using OAuth2 and monitors a specified directory for new files. When new files are detected, they are automatically uploaded to the specified Google Drive folder.",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node src/index.js"
