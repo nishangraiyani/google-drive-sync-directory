@@ -2,7 +2,7 @@
   "name": "google-drive-sync-directory",
   "version": "1.0.0",
   "description": "A Node.js package that allows you to easily synchronize a directory with Google Drive. This package handles authentication with Google Drive using OAuth2 and monitors a specified directory for new files. When new files are detected, they are automatically uploaded to the specified Google Drive folder.",
-  "main": "",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node src/index.js"
@@ -13,5 +13,32 @@
     "chokidar": "^3.6.0",
     "googleapis": "^133.0.0",
     "readline-promise": "^1.0.5"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nishangraiyani/google-drive-sync-directory.git"
+  },
+  "keywords": [
+    "node",
+    "node.js",
+    "google",
+    "drive",
+    "file",
+    "sync",
+    "synchronization",
+    "backup",
+    "automation",
+    "oauth2",
+    "googleapis",
+    "chokidar",
+    "readline",
+    "fs",
+    "npm",
+    "package"
+  ],
+  "bugs": {
+    "url": "https://github.com/nishangraiyani/google-drive-sync-directory/issues"
+  },
+  "homepage": "https://github.com/nishangraiyani/google-drive-sync-directory#readme"
 }
